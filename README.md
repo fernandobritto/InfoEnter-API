@@ -21,7 +21,7 @@ The main tools used in the project:
 [nodejs]: https://nodejs.org/
 [strapi]: https://strapi.io/
 [postgres]: https://www.postgresql.org//
-[Heroku]: heroku.com
+[Heroku]: https://www.heroku.com/
 [cloudinary]: https://cloudinary.com/
 
 
