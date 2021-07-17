@@ -2,17 +2,19 @@ module.exports = ({ env }) => ({
   defaultConnection: 'default',
   connections: {
     default: {
-      connector: 'bookshelf',
+      connector: 'mongoose',
       settings: {
-        client: 'mysql',
-        host: env('DATABASE_HOST', '127.0.0.1'),
-        port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'infoenter-api'),
-        username: env('DATABASE_USERNAME', 'root'),
+        host: env('DATABASE_HOST', 'infoenter.y0wlm.mongodb.net'),
+        srv: env.bool('DATABASE_SRV', true),
+        port: env.int('DATABASE_PORT', 27017),
+        database: env('DATABASE_NAME', 'infoenter'),
+        username: env('DATABASE_USERNAME', 'fernandobritto_admin'),
         password: env('DATABASE_PASSWORD', '1q2w3e4r'),
-        ssl: env.bool('DATABASE_SSL', false),
       },
-      options: {}
+      options: {
+        authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
+        ssl: env.bool('DATABASE_SSL', true),
+      },
     },
   },
 });

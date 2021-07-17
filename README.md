@@ -1,7 +1,6 @@
 # Info Enter
 
-
-> ### This is an API developed on Strap.io and is the back-end of the InfoEnter website
+> ### This is an API developed on Strapi.io and is the back-end of the InfoEnter website
 
 &nbsp;&nbsp;&nbsp;
 
@@ -12,19 +11,12 @@ The main tools used in the project:
 
 - [Node.js][nodejs]
 - [Strapi][strapi]
-- [Postgres][postgres]
-- [Heroku][Heroku]
-- [Cloudinary][cloudinary]
-
+- [MongoDB][mongo]
 
 
 [nodejs]: https://nodejs.org/
 [strapi]: https://strapi.io/
-[postgres]: https://www.postgresql.org//
-[Heroku]: https://www.heroku.com/
-[cloudinary]: https://cloudinary.com/
-
-
+[mongo]: https://www.mongodb.com/
 
 &nbsp;&nbsp;
 
@@ -34,4 +26,3 @@ The main tools used in the project:
 Fernando Britto
 
 https://fernandobritto.github.io/
-
